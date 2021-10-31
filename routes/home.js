@@ -2,6 +2,6 @@ const express = require("express");
 const router = express.Router();
 const homeController = require("../controllers/home");
 
-router.get("/", homeController.getBlogs);
+router.get("/", homeController.getAllCharactersInfo);
 
 module.exports = router;
